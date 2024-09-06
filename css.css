@@ -1,75 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    text-align: center;
-    padding: 50px 0;
-    background-image: url('https://res.cloudinary.com/dh6ipg8bj/image/upload/v1725630152/clases-ensenanza/stage_2_hzgjhe.png');
-    background-size: cover;
-    background-position: top;
-    color: #fff;
-    height: 40vh;
-    overflow: hidden;
-  }
-  #cta h1 {
-    font-size: 4em;
-    margin: 0;
-    margin-top: 10px;
-    text-shadow: 2px 2px 2px #00000072;
-  }
+  font-family: Arial, sans-serif; /* Establece la fuente de todo el texto en la página a Arial, y usa una fuente sans-serif como alternativa si Arial no está disponible */
+  margin: 0; /* Elimina los márgenes predeterminados alrededor del cuerpo de la página */
+  padding: 0; /* Elimina el relleno interno predeterminado del cuerpo de la página */
+}
 
-  #cta h1 span {
-    color: #007bff;
-  }
+header {
+  text-align: center; /* Centra el texto dentro del encabezado */
+  padding: 50px 0; /* Añade 50 píxeles de relleno arriba y abajo del encabezado */
+  background-image: url('https://res.cloudinary.com/dh6ipg8bj/image/upload/v1725630152/clases-ensenanza/stage_2_hzgjhe.png'); /* Establece una imagen de fondo para el encabezado */
+  background-size: cover; /* Hace que la imagen de fondo cubra todo el área del encabezado */
+  background-position: top; /* Coloca la imagen de fondo en la parte superior del encabezado */
+  color: #fff; /* Establece el color del texto en el encabezado a blanco */
+  height: 40vh; /* Establece la altura del encabezado a 40% de la altura de la ventana del navegador */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde fuera del encabezado */
+}
 
-  section {
-    padding: 50px 20px;
-    text-align: center;
-  }
-  button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
+#cta h1 {
+  font-size: 4em; /* Establece el tamaño de la fuente del encabezado principal dentro de la sección #cta a 4 veces el tamaño base de la fuente */
+  margin: 0; /* Elimina el margen alrededor del encabezado h1 */
+  margin-top: 10px; /* Añade un margen superior de 10 píxeles al encabezado h1 */
+  text-shadow: 2px 2px 2px #00000072; /* Aplica una sombra al texto del encabezado h1 para mejorar la legibilidad */
+}
 
-  section#form {
-    background-color: #6abae2b4;
-  }
+#cta h1 span {
+  color: #007bff; /* Establece el color del texto dentro de la etiqueta span en el encabezado h1 a un tono azul (#007bff) */
+}
 
-  form {
-    margin: 0 auto;
-    max-width: 350px;
-    text-align: left;
-    margin-bottom: 100px;
-  }
-  form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  form input,
-  form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  form button {
-    width: 50%;
-    margin-left: 25%;
-  }
-  footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
+section {
+  padding: 50px 20px; /* Añade 50 píxeles de relleno arriba y abajo, y 20 píxeles de relleno a los lados de las secciones */
+  text-align: center; /* Centra el texto dentro de las secciones */
+}
+
+button {
+  padding: 10px 20px; /* Añade 10 píxeles de relleno arriba y abajo, y 20 píxeles a los lados del botón */
+  font-size: 1em; /* Establece el tamaño de la fuente del botón a 1 vez el tamaño base de la fuente */
+  background-color: #007bff; /* Establece el color de fondo del botón a un tono azul (#007bff) */
+  color: #fff; /* Establece el color del texto del botón a blanco */
+  border: none; /* Elimina el borde predeterminado del botón */
+  cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón, indicando que es clicable */
+}
+
+section#form {
+  background-color: #6abae2b4; /* Establece un color de fondo semitransparente azul para la sección del formulario */
+}
+
+form {
+  margin: 0 auto; /* Centra el formulario horizontalmente con un margen automático a los lados */
+  max-width: 350px; /* Establece un ancho máximo de 350 píxeles para el formulario */
+  text-align: left; /* Alinea el texto dentro del formulario a la izquierda */
+  margin-bottom: 100px; /* Añade un margen inferior de 100 píxeles al formulario */
+}
+
+form label {
+  display: block; /* Hace que cada etiqueta de formulario ocupe toda la línea */
+  margin-bottom: 5px; /* Añade un margen inferior de 5 píxeles a las etiquetas de formulario */
+}
+
+form input,
+form textarea {
+  width: 100%; /* Hace que los campos de entrada y el área de texto ocupen el 100% del ancho del formulario */
+  padding: 10px; /* Añade 10 píxeles de relleno interno a los campos de entrada y al área de texto */
+  margin-bottom: 10px; /* Añade un margen inferior de 10 píxeles a los campos de entrada y al área de texto */
+  border: 1px solid #ccc; /* Establece un borde de 1 píxel de color gris claro (#ccc) alrededor de los campos de entrada y el área de texto */
+  border-radius: 5px; /* Redondea las esquinas de los campos de entrada y el área de texto con un radio de 5 píxeles */
+}
+
+form button {
+  width: 50%; /* Establece el ancho del botón dentro del formulario al 50% del ancho del formulario */
+  margin-left: 25%; /* Añade un margen izquierdo del 25% del ancho del formulario para centrar el botón */
+}
+
+footer {
+  text-align: center; /* Centra el texto dentro del pie de página */
+  background-color: #333; /* Establece el color de fondo del pie de página a un gris oscuro (#333) */
+  color: #fff; /* Establece el color del texto del pie de página a blanco */
+  padding: 20px 0; /* Añade 20 píxeles de relleno arriba y abajo del pie de página */
+  position: fixed; /* Fija el pie de página en la parte inferior de la ventana del navegador */
+  bottom: 0; /* Establece la posición del pie de página en la parte inferior de la ventana */
+  width: 100%; /* Hace que el pie de página ocupe todo el ancho de la ventana */
+}
   
